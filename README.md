@@ -100,7 +100,7 @@ This document will describe the structure of my attempt of creating a  pattern l
 
 **Description**
 
-- Use the library (name ??)
+- Use the jQuery library slicebox
 
 
 
