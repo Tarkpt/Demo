@@ -49,6 +49,7 @@ This document will describe the structure of my attempt of creating a  pattern l
 - Inputs
 - Radio and checkboxes (custom controls)
 - Pre-made forms: sign-in, sign-up, contact
+- PHP scripts for sending email
 - 
 
 ## Icons
