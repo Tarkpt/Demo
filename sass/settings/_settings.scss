@@ -12,7 +12,7 @@ $muted-text-color: lighten($text-color, 30%);
 
 $baseline: 1.5em;
 
-$body-font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+$body-font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
 
 $h1-size: 3.998em;
 $h2-size: 2.827em;
@@ -78,7 +78,17 @@ $tabs-active-bg-color: #fff;
 $accordion-border-color: #ccc;
 $accordion-inactive-bg-color: #c1cacd;
 $accordion-active-bg-color: #333;
-$accordion-active-text-color: #fff;
+$accordion-active-text-color: #444;
+$accordion-inactive-text-color: #000;
 
 
+// Slider Variables.
+$slider-bg: #CBBFAE;
+$slider-color: #FFF;
+
+
+// footer
+$footer-color: #362f2c;
+$footer-text-size: 10px;
+$footer-bg: #e8bc93;
 

@@ -1,99 +1,123 @@
 @import "../settings/settings";
 
-html {
-	font-size: 1em;
-}
 
+
+ html {
+    font-size: 1em;
+}
 html,
 input,
 button,
 textarea {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
-
 body {
-	color: $text-color;
-	font-family: $body-font-family;
-	line-height: $baseline;
+    color: $text-color;
+    font-family: $body-font-family;
+    line-height: $baseline;
 }
-
+*::selection {
+    background: gold;
+    color: #0115F4
+}
+*::-moz-selection {
+    background: gold;
+    color: #0115F4
+}
 p {
-	margin-bottom: $baseline;
+    margin-bottom: $baseline;
 }
 
+p.shadow {
+   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1); 
+}
+p.info {
+    font-family: "Volkhov", serif;
+    font-style: italic;
+    color: #997f5a;
+    -moz-text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    -webkit-text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    -o-text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    -moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    -webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    -o-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    display: block;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+}
 a,
 a:visited {
-	color: $link-color;
-
-	&:hover {
-		color: $text-color;
-	}
+    color: $link-color;
+    &:hover {
+        color: $text-color;
+    }
 }
-
 hr {
-	border: 0;
-
-	background-color: $hr-color;
-
-	height: 1px;
-	margin: $baseline 0;
+    border: 0;
+    background-color: $hr-color;
+    height: 1px;
+    margin: $baseline 0;
 }
-
-h1, 
-h2, 
-h3, 
+h1,
+h2,
+h3,
 h4,
 h5,
 h6 {
-	margin: $baseline 0 .5em;
-	line-height: 1.2;
+    margin: $baseline 0 .5em;
+    line-height: 1.2;
 }
-
 h5,
 h6 {
-	line-height: 1.5;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
-
 h1 {
-	font-size: $h1-size;
+    font-size: $h1-size;
 }
-
 h2 {
-	font-size: $h2-size;
+    font-size: $h2-size;
 }
-
 h3 {
-	font-size: $h3-size;
+    font-size: $h3-size;
 }
-
 h4 {
-	font-size: $h4-size;
+    font-size: $h4-size;
 }
-
 h5 {
-	font-size: $h5-size;
+    font-size: $h5-size;
 }
-
 h6 {
-	font-size: $h6-size;
+    font-size: $h6-size;
 }
-
 ul,
 ol {
-	margin: 0 0 $baseline $baseline;
+    margin: 0 0 $baseline $baseline;
 }
-
 blockquote {
-	color: $muted-text-color;
-	font-style: italic;
-
-	margin-left: $baseline;
-
-	footer {
-		@extend small;
-		font-style: normal;
-	}
+    color: $muted-text-color;
+    font-style: italic;
+    margin-left: $baseline;
+    footer {
+        @extend small;
+        font-style: normal;
+        clear: both;
+        height: auto;
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        background: $footer-bg;
+        font-size: $footer-text-size;
+        color: $footer-color; 
+    }
 }
+
+    

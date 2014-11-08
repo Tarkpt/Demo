@@ -1,5 +1,5 @@
 @import "../settings/settings";
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 
 #cssmenu,
 #cssmenu ul,
@@ -16,7 +16,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*float: right;*/
 }
 #cssmenu:after,
 #cssmenu > ul:after {

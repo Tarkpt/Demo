@@ -1,5 +1,5 @@
 @import "../settings/settings";
-/* ==================== SLIDER ==================*/
+
 
 /* Slicebox Style */
 .sb-slider {
@@ -37,13 +37,13 @@
 	right: 10px;
 	z-index: 1000;
 	position: absolute;
-	background: #CBBFAE;
+	background: $slider-bg;
 	background: rgba(190,176,155, 0.4);
 	border-left: 4px solid rgba(255,255,255,0.7);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);	
 	opacity: 0;
-	color: #fff;
+	color: $slider-color;
 
 	-webkit-transition: all 200ms;
 	-moz-transition: all 200ms;
@@ -129,7 +129,7 @@
 	width: 42px;
 	height: 42px;
 	background: #cbbfae url(../images/Slides/nav.png) no-repeat top left;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 2px;
 	text-indent: -9000px;
@@ -210,5 +210,3 @@
 	opacity: 1;
 }
 }
-
-/* ============== FIM SLIDER =============*/
